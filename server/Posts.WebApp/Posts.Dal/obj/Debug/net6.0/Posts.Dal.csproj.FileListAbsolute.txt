@@ -1,0 +1,17 @@
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\bin\Debug\net6.0\Posts.Dal.deps.json
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\bin\Debug\net6.0\Posts.Dal.runtimeconfig.json
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\bin\Debug\net6.0\Posts.Dal.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\bin\Debug\net6.0\Posts.Dal.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\bin\Debug\net6.0\Posts.Domain.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\bin\Debug\net6.0\Posts.Domain.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.csproj.AssemblyReference.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.AssemblyInfoInputs.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.AssemblyInfo.cs
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.csproj.CoreCompileInputs.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.csproj.CopyComplete
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\refint\Posts.Dal.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\Posts.Dal.genruntimeconfig.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Dal\obj\Debug\net6.0\ref\Posts.Dal.dll

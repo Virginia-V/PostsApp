@@ -1,0 +1,12 @@
+D:\PostsApp\server\Posts.WebApp\Posts.Common\bin\Debug\net6.0\Posts.Common.deps.json
+D:\PostsApp\server\Posts.WebApp\Posts.Common\bin\Debug\net6.0\Posts.Common.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Common\bin\Debug\net6.0\Posts.Common.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.csproj.AssemblyReference.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.AssemblyInfoInputs.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.AssemblyInfo.cs
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.csproj.CoreCompileInputs.cache
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\refint\Posts.Common.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\Posts.Common.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Common\obj\Debug\net6.0\ref\Posts.Common.dll

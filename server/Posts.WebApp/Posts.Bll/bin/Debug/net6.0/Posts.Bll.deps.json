@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Posts.Bll/1.0.0": {
+        "runtime": {
+          "Posts.Bll.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Posts.Bll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

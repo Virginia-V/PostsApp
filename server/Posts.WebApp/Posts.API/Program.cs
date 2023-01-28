@@ -1,11 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using Posts.Dal;
+using Posts.Dal.Interfaces;
+using Posts.Dal.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped(typeof(IRepository<>), typeof(EFCoreRepository<>));
+
+builder.Services.AddDbContext<PostsDbContext>(optionBuilder =>
+{
+    optionBuilder.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
+});
+
 
 var app = builder.Build();
 
