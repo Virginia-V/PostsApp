@@ -10,3 +10,10 @@ D:\PostsApp\server\Posts.WebApp\Posts.Bll\obj\Debug\net6.0\Posts.Bll.dll
 D:\PostsApp\server\Posts.WebApp\Posts.Bll\obj\Debug\net6.0\refint\Posts.Bll.dll
 D:\PostsApp\server\Posts.WebApp\Posts.Bll\obj\Debug\net6.0\Posts.Bll.pdb
 D:\PostsApp\server\Posts.WebApp\Posts.Bll\obj\Debug\net6.0\ref\Posts.Bll.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\bin\Debug\net6.0\Posts.Common.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\bin\Debug\net6.0\Posts.Dal.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\bin\Debug\net6.0\Posts.Domain.dll
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\bin\Debug\net6.0\Posts.Common.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\bin\Debug\net6.0\Posts.Dal.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\bin\Debug\net6.0\Posts.Domain.pdb
+D:\PostsApp\server\Posts.WebApp\Posts.Bll\obj\Debug\net6.0\Posts.Bll.csproj.CopyComplete

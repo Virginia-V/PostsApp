@@ -1,4 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Posts.Bll;
+using Posts.Bll.Interfaces;
+using Posts.Bll.Services;
 using Posts.Dal;
 using Posts.Dal.Interfaces;
 using Posts.Dal.Repositories;
@@ -10,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(EFCoreRepository<>));
+builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddAutoMapper(typeof(BllAssemblyMarker));
 
 builder.Services.AddDbContext<PostsDbContext>(optionBuilder =>
 {
@@ -22,11 +28,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseRouting();
+
+app.UseCors(configurePolicy => configurePolicy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 app.UseAuthorization();
 

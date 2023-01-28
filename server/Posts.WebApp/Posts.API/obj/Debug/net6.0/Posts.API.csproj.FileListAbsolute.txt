@@ -70,3 +70,6 @@ D:\PostsApp\server\Posts.WebApp\Posts.API\obj\Debug\net6.0\refint\Posts.API.dll
 D:\PostsApp\server\Posts.WebApp\Posts.API\obj\Debug\net6.0\Posts.API.pdb
 D:\PostsApp\server\Posts.WebApp\Posts.API\obj\Debug\net6.0\Posts.API.genruntimeconfig.cache
 D:\PostsApp\server\Posts.WebApp\Posts.API\obj\Debug\net6.0\ref\Posts.API.dll
+D:\PostsApp\server\Posts.WebApp\Posts.API\bin\Debug\net6.0\libman.json
+D:\PostsApp\server\Posts.WebApp\Posts.API\bin\Debug\net6.0\AutoMapper.dll
+D:\PostsApp\server\Posts.WebApp\Posts.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
