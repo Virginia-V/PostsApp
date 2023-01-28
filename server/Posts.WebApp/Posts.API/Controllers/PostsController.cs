@@ -17,7 +17,9 @@ namespace Posts.API.Controllers
         [HttpGet]
         public async Task<IEnumerable<PostDto>> GetPostsAsync()
         {
-            return await _postService.GetPostsAsync();
+            var items = await _postService.GetPostsAsync();
+            Response.Headers.Add("x-total-count", items.Count().ToString());
+            return items;
         }
 
         [HttpGet("{id}")]

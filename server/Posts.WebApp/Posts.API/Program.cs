@@ -22,6 +22,18 @@ builder.Services.AddDbContext<PostsDbContext>(optionBuilder =>
     optionBuilder.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .WithExposedHeaders("x-total-count");
+        });
+});
 
 var app = builder.Build();
 
@@ -33,9 +45,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseRouting();
+app.UseCors("AllowAll");
 
-app.UseCors(configurePolicy => configurePolicy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+app.UseRouting();
 
 app.UseAuthorization();
 
